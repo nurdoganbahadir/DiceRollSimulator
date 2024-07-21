@@ -5,9 +5,9 @@
   margin: 3rem;
   text-align: center;
 }
-i {
+.rollDiceFace {
   margin: 2rem;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 button {
   margin: auto;
@@ -31,4 +31,7 @@ span {
   margin-top: 2rem;
   text-align: center;
   font-size: 2rem;
+}
+.listRollHistory {
+  font-size: 3rem;
 }
