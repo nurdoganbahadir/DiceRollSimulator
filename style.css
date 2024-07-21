@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem;
+  text-align: center;
+}
+i {
+  margin: 2rem;
+  font-size: 4rem;
+}
+button {
+  margin: auto;
+  width: 120px;
+  height: 50px;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button:hover {
+  transform: scale(120%);
+}
+button:active {
+  transform: scale(110%);
+}
