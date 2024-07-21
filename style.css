@@ -27,3 +27,8 @@ button:hover {
 button:active {
   transform: scale(110%);
 }
+span {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
