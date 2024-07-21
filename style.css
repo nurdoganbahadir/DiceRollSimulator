@@ -34,14 +34,15 @@ span {
   font-size: 2rem;
 }
 .listRollHistory {
-  font-size: 3rem;
+  font-size: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .listRollHistory p {
-  background-color: rgb(218, 214, 214);
+  background-color: rgb(218, 218, 218);
   border-radius: 1rem;
   width: 50%;
   margin: 0.5rem;
+  box-shadow: 2px 2px 5px rgb(94, 94, 94);
 }
