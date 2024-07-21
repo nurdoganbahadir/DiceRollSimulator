@@ -8,6 +8,7 @@ let i = 1;
 rollBtn.onclick = function () {
   const rollResult = Math.floor(Math.random() * 6) + 1;
   historyList.push(rollResult);
+  
   for (let sayi of historyList) {
     if (sayi === 1) {
       rollDice.innerHTML = "&#9856;";
